@@ -1,0 +1,1 @@
+Static HTML for a simple homepage of [geobar.co.uk](https://geobar.co.uk)
