@@ -1,0 +1,51 @@
+#logo {
+    max-width: 300px;
+    filter: invert(100%)
+}
+
+#page-content {
+    max-width: 700px;
+    padding: 20px;
+}
+
+#strapline {
+    color: rgb(226, 226, 226);
+}
+
+#header-box {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('header_background.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    height: 33px;
+}
+
+/* Hiding class, making content visible only to screen readers but not visually */
+/* "sr" meaning "screen-reader" */
+/* From https://css-tricks.com/inclusively-hidden/ */
+
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+  }
+
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
